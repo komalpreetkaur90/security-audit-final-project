@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Donation Tracker</h1>
+    </header>
+    
+    <main>
+        <form id="donation-form">
+            <label for="charity-name">Charity Name:</label>
+            <input type="text" id="charity-name" required>
+            
+            <label for="donation-amount">Donation Amount:</label>
+            <input type="number" id="donation-amount" required>
+            
+            <label for="donation-date">Date of Donation:</label>
+            <input type="date" id="donation-date" required>
+            
+            <label for="donor-message">Donor Comment/Message:</label>
+            <textarea id="donor-message" required></textarea>
+            
+            <button type="submit">Submit Donation</button>
+        </form>
+        <div id="form-feedback"></div>
+        <h2>Donation Records</h2>
+        <table id="donationTable">
+            <thead>
+                <tr>
+                    <th>Charity Name</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Comment</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Donation rows will be inserted here by JS -->
+            </tbody>
+        </table>
+        <div id="totalDonations">Total Donated: $0.00</div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Community Support</p>
+    </footer> 
+    <script type="module" src="donation-tracker.js"></script>
+</body>
+</html>
