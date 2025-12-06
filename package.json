@@ -1,0 +1,20 @@
+{
+  "name": "html_final_project",
+  "version": "1.0.0",
+  "main": "donation-tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komalpreetkaur90/security-audit-final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komalpreetkaur90/security-audit-final-project/issues"
+  },
+  "homepage": "https://github.com/komalpreetkaur90/security-audit-final-project#readme",
+  "description": ""
+}
